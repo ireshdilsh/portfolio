@@ -493,6 +493,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 40px;
+  gap: 250px;
 }
 
 #contact .contact-body .left{
@@ -502,11 +503,23 @@ body {
   flex-direction: column;
 }
 
+#contact .contact-body .left .email,
+#contact .contact-body .left .address,
+#contact .contact-body .left .mobile{
+  margin-top: 20px;
+}
+
 #contact .contact-body .left .email img,
 #contact .contact-body .left .address img,
 #contact .contact-body .left .mobile img{
   height: 20px;
   width: 20px;
+}
+
+#contact .contact-body .right{
+  padding: 50px;
+  border: 2px solid #fafafa;
+  border-radius: 5px;
 }
 
 footer{
