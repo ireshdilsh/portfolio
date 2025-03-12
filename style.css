@@ -382,6 +382,7 @@ body {
 #projects .project-body .set-4 .card-1,
 #projects .project-body .set-4 .card-2 {
   width: 500px;
+  height: 320px;
   padding: 40px;
   border: 2px solid #fafafa;
   border-radius: 5px;
@@ -457,11 +458,13 @@ body {
 
 .bottom-bar .right{
   background-color: rgba(0, 128, 0, 0.175);
-  padding: 0px 25px 12px 25px;
+  padding: 0 15px 0 15px;
   border-radius: 5px;
+  height: 45px;
 }
 
 .bottom-bar .right p{
   color: rgb(0, 88, 0);
   font-weight: 500;
+  font-size: 12px;
 }
