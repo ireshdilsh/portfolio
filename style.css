@@ -181,6 +181,10 @@ body {
   margin-top: 50px;
 }
 
+#aboutme .about-me-body .right-side p{
+  text-align: justify;
+}
+
 #aboutme .about-me-body .right-side a {
   text-decoration: none;
   font-weight: 500;
