@@ -469,3 +469,16 @@ body {
   font-weight: 500;
   font-size: 12px;
 }
+
+#contact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 80px 150px;
+}
+
+#contact .title{
+  font-size: 36px;
+  font-weight: 500;
+}
