@@ -516,10 +516,84 @@ body {
   width: 20px;
 }
 
+#contact .contact-body .left .email p,
+#contact .contact-body .left .address p,
+#contact .contact-body .left .mobile p{
+  font-weight: 500;
+}
+
 #contact .contact-body .right{
   padding: 50px;
   border: 2px solid #fafafa;
   border-radius: 5px;
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+#contact .contact-body .right .name{
+  display: flex;
+  gap: 50px;
+  margin-top: 25px;
+}
+
+#contact .contact-body .right .email-phone{
+  display: flex;
+  gap: 50px;
+}
+
+#contact .contact-body .right .name .first,
+#contact .contact-body .right .name .second{
+  display: flex;
+  flex-direction: column;
+}
+
+label{
+  color: #4a4a4a;
+}
+
+#contact .contact-body .right .email,
+#contact .contact-body .right .mobile,
+#contact .contact-body .right .message{
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: 12px;
+}
+
+input{
+  height: 40px;
+  padding: 0 15px;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+  border: 2px solid #fafafa;
+  border-radius: 5px;
+}
+
+textarea{
+  border-radius: 5px;
+  padding: 15px 15px;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+  border: 2px solid #fafafa;
+}
+
+#contact .contact-body .right .contact-btn{
+  margin-top: 20px;
+}
+
+#contact .contact-body .right .contact-btn button{
+  background-color: var(--primary-colr);
+  color: var(--secondry-color);
+  font-size: 13px;
+  padding: 15px 20px;
+  border-radius: 5px;
+  font-weight: 500;
+  border: none;
+  outline: none;
 }
 
 footer{
@@ -546,4 +620,11 @@ footer p{
   font-weight: 900;
   rotate: 90deg;
   opacity: 0.1;
+}
+
+.bottom-img{
+  position: absolute;
+  left: 0;
+  top: 0;
+  rotate: 180deg;
 }
