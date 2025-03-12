@@ -495,6 +495,20 @@ body {
   margin-top: 40px;
 }
 
+#contact .contact-body .left{
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+#contact .contact-body .left .email img,
+#contact .contact-body .left .address img,
+#contact .contact-body .left .mobile img{
+  height: 20px;
+  width: 20px;
+}
+
 footer{
   margin-top: 50px;
   padding: 15px 0;
