@@ -482,3 +482,16 @@ body {
   font-size: 36px;
   font-weight: 500;
 }
+
+#contact .contact-body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
