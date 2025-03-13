@@ -594,6 +594,7 @@ textarea {
   font-weight: 500;
   border: none;
   outline: none;
+  cursor: pointer;
 }
 
 footer {
