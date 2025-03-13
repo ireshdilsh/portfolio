@@ -181,7 +181,7 @@ body {
   margin-top: 50px;
 }
 
-#aboutme .about-me-body .right-side p{
+#aboutme .about-me-body .right-side p {
   text-align: justify;
 }
 
@@ -362,7 +362,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  
+
   flex-direction: column;
   margin-top: 40px;
 }
@@ -446,14 +446,14 @@ body {
   transform: scale(1.1);
 }
 
-.bottom-bar{
+.bottom-bar {
   margin-top: 25px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.bottom-bar .left a{
+.bottom-bar .left a {
   text-decoration: none;
   background-color: var(--primary-colr);
   color: var(--secondry-color);
@@ -462,20 +462,20 @@ body {
   border-radius: 5px;
 }
 
-.bottom-bar .right{
+.bottom-bar .right {
   background-color: rgba(0, 128, 0, 0.175);
   padding: 0 15px 0 15px;
   border-radius: 5px;
   height: 45px;
 }
 
-.bottom-bar .right p{
+.bottom-bar .right p {
   color: rgb(0, 88, 0);
   font-weight: 500;
   font-size: 12px;
 }
 
-#contact{
+#contact {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -483,12 +483,12 @@ body {
   padding: 80px 150px;
 }
 
-#contact .title{
+#contact .title {
   font-size: 36px;
   font-weight: 500;
 }
 
-#contact .contact-body{
+#contact .contact-body {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -496,7 +496,7 @@ body {
   gap: 250px;
 }
 
-#contact .contact-body .left{
+#contact .contact-body .left {
   display: flex;
   justify-content: left;
   align-items: flex-start;
@@ -505,24 +505,24 @@ body {
 
 #contact .contact-body .left .email,
 #contact .contact-body .left .address,
-#contact .contact-body .left .mobile{
+#contact .contact-body .left .mobile {
   margin-top: 20px;
 }
 
 #contact .contact-body .left .email img,
 #contact .contact-body .left .address img,
-#contact .contact-body .left .mobile img{
+#contact .contact-body .left .mobile img {
   height: 20px;
   width: 20px;
 }
 
 #contact .contact-body .left .email p,
 #contact .contact-body .left .address p,
-#contact .contact-body .left .mobile p{
+#contact .contact-body .left .mobile p {
   font-weight: 500;
 }
 
-#contact .contact-body .right{
+#contact .contact-body .right {
   padding: 50px;
   border: 2px solid #fafafa;
   border-radius: 5px;
@@ -533,30 +533,30 @@ body {
   background-color: #fff;
 }
 
-#contact .contact-body .right .name{
+#contact .contact-body .right .name {
   display: flex;
   gap: 50px;
   margin-top: 25px;
 }
 
-#contact .contact-body .right .email-phone{
+#contact .contact-body .right .email-phone {
   display: flex;
   gap: 50px;
 }
 
 #contact .contact-body .right .name .first,
-#contact .contact-body .right .name .second{
+#contact .contact-body .right .name .second {
   display: flex;
   flex-direction: column;
 }
 
-label{
+label {
   color: #4a4a4a;
 }
 
 #contact .contact-body .right .email,
 #contact .contact-body .right .mobile,
-#contact .contact-body .right .message{
+#contact .contact-body .right .message {
   display: flex;
   justify-content: left;
   align-items: flex-start;
@@ -564,7 +564,7 @@ label{
   margin-top: 12px;
 }
 
-input{
+input {
   height: 40px;
   padding: 0 15px;
   outline: none;
@@ -573,7 +573,7 @@ input{
   border-radius: 5px;
 }
 
-textarea{
+textarea {
   border-radius: 5px;
   padding: 15px 15px;
   outline: none;
@@ -581,11 +581,11 @@ textarea{
   border: 2px solid #fafafa;
 }
 
-#contact .contact-body .right .contact-btn{
+#contact .contact-body .right .contact-btn {
   margin-top: 20px;
 }
 
-#contact .contact-body .right .contact-btn button{
+#contact .contact-body .right .contact-btn button {
   background-color: var(--primary-colr);
   color: var(--secondry-color);
   font-size: 13px;
@@ -596,7 +596,7 @@ textarea{
   outline: none;
 }
 
-footer{
+footer {
   margin-top: 50px;
   padding: 15px 0;
   display: flex;
@@ -605,13 +605,13 @@ footer{
   background-color: var(--primary-colr);
 }
 
-footer p{
+footer p {
   font-size: 12px;
   color: var(--secondry-color);
   font-weight: 500;
 }
 
-.opacity-text{
+.opacity-text {
   width: 850px;
   font-size: 88px;
   position: absolute;
@@ -622,7 +622,7 @@ footer p{
   opacity: 0.1;
 }
 
-.bottom-img img{
+.bottom-img img {
   position: absolute;
   right: 0;
   top: 4700px;
