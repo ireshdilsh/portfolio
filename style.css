@@ -632,3 +632,21 @@ footer p {
   height: 580px;
   z-index: -1;
 }
+
+/* make portfolio responsive */
+
+/* Laptop Screen Size */
+@media screen and (max-width: 1440px) {
+
+}
+
+/* Tablet Screen Size */
+@media screen and (max-width: 1024px) {
+
+}
+
+/* Mobile Phone Screen Size */
+@media screen and (max-width: 768px) {
+  
+}
+
