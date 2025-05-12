@@ -176,6 +176,7 @@ nav a:hover::after{
   align-items: center;
   flex-direction: column;
   padding: 80px 120px;
+  background-color: #fafafa54;
 }
 
 #about .title span{
@@ -387,4 +388,85 @@ nav a:hover::after{
   fill: var(--text-color, #333);
   font-size: 0.5em;
   text-anchor: middle;
+}
+
+#works{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 80px 120px;
+  background-color: #fafafa54;
+}
+
+#works .title span{
+  font-size: 48px;
+  font-weight: 700;
+}
+
+#works .title span #colored-text{
+  background-color: var(--border-color);
+  padding: 0 15px;
+  border-radius: 8px;
+}
+
+#works .discription p{
+  font-size: 13px;
+  text-align: center;
+}
+
+#works .cards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+  gap: 15px;
+}
+
+#works .cards .set-1,
+#works .cards .set-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+#works .cards .set-1 .card-1,
+#works .cards .set-1 .card-2,
+#works .cards .set-1 .card-3,
+#works .cards .set-2 .card-1,
+#works .cards .set-2 .card-2,
+#works .cards .set-2 .card-3{
+  width: 350px;
+  border: 2px solid var(--border-color);
+  border-radius: 5px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+#works .cards .set-1 .card-1 h5,
+#works .cards .set-1 .card-2 h5,
+#works .cards .set-1 .card-3 h5,
+#works .cards .set-2 .card-1 h5,
+#works .cards .set-2 .card-2 h5,
+#works .cards .set-2 .card-3 h5{
+  font-weight: 600;
+}
+
+
+
+#works .cards .set-1 .card-1 p,
+#works .cards .set-1 .card-2 p,
+#works .cards .set-1 .card-3 p,
+#works .cards .set-2 .card-1 p,
+#works .cards .set-2 .card-2 p,
+#works .cards .set-2 .card-3 p{
+  text-align: justify;
+  font-size: 13px;
+  margin-top: 15px
 }

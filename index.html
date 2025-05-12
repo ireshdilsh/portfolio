@@ -383,7 +383,45 @@
   </section>
 
   <section id="works">
-
+    <div class="sub-title">
+      <h6>What I’ve Built_</h6>
+    </div>
+    <div class="title">
+      <span>Bringing <span id="colored-text"> Ideas to Life</span> Through Code</span>
+    </div>
+    <div class="discription">
+      <p>A showcase of practical and creative software solutions I've developed—ranging from web and mobile applications to tools focused on performance, usability, and innovation.</p>
+    </div>
+    <div class="cards">
+      <div class="set-1">
+        <div class="card-1">
+          <h5>E-Commerce Web App</h5>
+          <p>Built a full-stack shopping platform with user authentication, product management, and payment integration using React, Node.js, and MongoDB.</p>
+        </div>
+        <div class="card-2">
+          <h5>Fitness Tracker App</h5>
+          <p>Designed a mobile app to log workouts, track progress, and sync with wearables using Flutter and Firebase.</p>
+        </div>
+        <div class="card-3">
+          <h5>Online Learning Platform</h5>
+          <p>Created an online learning platform with user authentication, course management, and payment integration using React, Node.js, and MongoDB.</p>
+        </div>
+      </div>
+      <div class="set-2">
+        <div class="card-1">
+          <h5>Portfolio Website</h5>
+          <p>Designed and developed a responsive portfolio website using HTML, CSS, and JavaScript.</p>
+        </div>
+        <div class="card-2">
+          <h5>Event Management System</h5>
+          <p>Created an event management system with user authentication, ticketing, and event management features using React, Node.js, and MongoDB.</p>
+        </div>
+        <div class="card-3">
+          <h5>Data Dashboard</h5>
+          <p>Built an interactive analytics dashboard with dynamic charts and tables using React and Chart.js for real-time business insights.</p>
+        </div>
+      </div>
+    </div>
   </section>
 
   <section id="contact">
@@ -398,24 +436,11 @@
   <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
   <script>
     var typed = new Typed('#element', {
-      strings: ['Im a UI/UX Designer.', 'Im a Front-end Developer.', 'Im a Back-end Developer.', 'Software Engineer.'],
+      strings: ['Im a UI/UX Designer.', 'Im a Front-end Developer.', 'Im a Back-end Developer.', 'Im a Software Engineer.'],
       typeSpeed: 200,
       backSpeed: 200,
       loop: true
     });
-
-    document.querySelectorAll('.progress-circle').forEach(el => {
-    const percent = el.getAttribute('data-percentage');
-    const circle = el.querySelector('.progress');
-    const text = el.querySelector('.percentage');
-    
-    const radius = 15.9155;
-    const circumference = 2 * Math.PI * radius;
-    const offset = circumference - (percent / 100 * circumference);
-
-    circle.setAttribute('stroke-dasharray', `${percent / 100 * circumference} ${circumference}`);
-    text.textContent = percent + '%';
-  });
   </script>
 </body>
 
