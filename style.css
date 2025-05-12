@@ -443,11 +443,15 @@ nav a:hover::after{
   border-radius: 5px;
   padding: 20px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  align-items: flex-start;
   flex-direction: column;
+  transition: 0.4s;
+  &:hover{
+    background-color: #fff;
+    transform: scale(1.05);
+  }
 }
-
 
 #works .cards .set-1 .card-1 h5,
 #works .cards .set-1 .card-2 h5,
@@ -458,8 +462,6 @@ nav a:hover::after{
   font-weight: 600;
 }
 
-
-
 #works .cards .set-1 .card-1 p,
 #works .cards .set-1 .card-2 p,
 #works .cards .set-1 .card-3 p,
@@ -469,4 +471,22 @@ nav a:hover::after{
   text-align: justify;
   font-size: 13px;
   margin-top: 15px
+}
+
+#works .cards .set-1 .card-1 a,
+#works .cards .set-1 .card-2 a,
+#works .cards .set-1 .card-3 a,
+#works .cards .set-2 .card-1 a,
+#works .cards .set-2 .card-2 a,
+#works .cards .set-2 .card-3 a{
+  text-decoration: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  background-color: var(--text-color);
+  color: #fcfcfc;
+  font-size: 13px;
+  font-weight: 600;
+  &:hover{
+    background-color: #333333e5;
+  }
 }
