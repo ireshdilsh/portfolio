@@ -439,6 +439,7 @@ nav a:hover::after{
 #works .cards .set-2 .card-2,
 #works .cards .set-2 .card-3{
   width: 350px;
+  height: 390px;
   border: 2px solid var(--border-color);
   border-radius: 5px;
   padding: 20px;
@@ -489,4 +490,17 @@ nav a:hover::after{
   &:hover{
     background-color: #333333e5;
   }
+}
+
+#works .cards .set-1 .card-1 img,
+#works .cards .set-1 .card-2 img,
+#works .cards .set-1 .card-3 img,
+#works .cards .set-2 .card-1 img,
+#works .cards .set-2 .card-2 img,
+#works .cards .set-2 .card-3 img{
+  width: 307px;
+  overflow: hidden;
+  border-radius: 8px 0 8px 0;
+  margin-bottom: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
