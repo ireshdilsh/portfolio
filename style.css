@@ -504,3 +504,49 @@ nav a:hover::after{
   margin-bottom: 20px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
+
+#contact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 80px 120px;
+}
+
+#contact .title span{
+  font-size: 48px;
+  font-weight: 700;
+}
+
+#contact .title span #colored-text{
+  background-color: var(--border-color);
+  padding: 0 15px;
+  border-radius: 8px;
+}
+
+#contact .contact-body{
+  display: flex;
+  gap: 80px;
+  margin-top: 35px;
+}
+
+#contact .contact-body .left-side{
+  width: 450px;
+}
+
+#contact .contact-body .left-side p{
+  text-align: justify;
+  font-size: 13px;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p{
+  padding: 50px 0 0 0;
+  font-size: 11.5px;
+  font-weight: 800;
+}
