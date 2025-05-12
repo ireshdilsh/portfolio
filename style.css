@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-  --accent-clor: #0d6efd;
+  --accent-clor: #fafafa;
   --text-color: #333;
-  --border-color: #fafafa;
+  --border-color: #f6f6f6;
 }
 
 * {
@@ -13,7 +13,6 @@
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-optical-sizing: auto;
-  font-size: 13px;
 }
 
 body {
@@ -24,7 +23,7 @@ nav{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 35px;
+  padding: 35px 0 0 0;
   gap: 25px;
 }
 
@@ -33,6 +32,7 @@ nav a{
   color: var(--text-color);
   font-weight: 500;
   position: relative;
+  font-size: 13px;
 }
 
 nav a::after{
@@ -48,4 +48,134 @@ nav a::after{
 
 nav a:hover::after{
   width: 100%;
+}
+
+#portfolio{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  padding: 80px 120px;
+}
+
+#portfolio .left-side{
+  width: 54%;
+}
+
+#portfolio .left-side .sub-title{
+  rotate: -1deg;
+}
+
+#portfolio .left-side .sub-title span{
+  font-size: 50px;
+  font-weight: 700;
+  color: var(--text-color);
+  border-radius: 5px 0 0 5px;
+  background-color: var(--border-color);
+  padding: 0 15px;
+}
+
+#portfolio .left-side .discription{
+  margin-top: 15px;
+  font-size: 13px;
+  color: var(--text-color);
+}
+
+#portfolio .left-side .icons{
+  margin-top: 25px;
+  display: flex;
+  gap: 10px;
+}
+
+#portfolio .left-side .icons img{
+  width: 22px;
+  height: 22px;
+}
+
+#portfolio .left-side .btns{
+  margin-top: 25px;
+}
+
+#portfolio .left-side .btns #works-btn{
+  background-color: var(--text-color);
+  color: #fcfcfc;
+  padding: 9px 22px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+#portfolio .left-side .btns #works-btn:hover{
+  background-color: #333333e5;
+}
+
+#portfolio .left-side .btns #contact-btn{
+  background-color: #fff;
+  color: var(--text-color);
+  border: 1.5px solid var(--text-color);
+  padding: 9px 22px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+#portfolio .left-side .btns #contact-btn:hover{
+  background-color: #fdfdfd;
+}
+
+#portfolio .right-side{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#portfolio .right-side .box-1{
+  height: 320px;
+  aspect-ratio: 1/1;
+  border: 2px solid var(--border-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  rotate: 45deg;
+  border-radius: 8px;
+  animation: box-1animation 20s linear infinite;
+}
+
+@keyframes box-1animation{
+  0%{
+    rotate: 0deg;
+  }
+  100%{
+    rotate: 360deg;
+  }
+}
+
+#portfolio .right-side .box-1 .box-2{
+  height: 320px;
+  aspect-ratio: 1/1;
+  border: 2px solid var(--border-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  rotate: 45deg;
+  border-radius: 8px;
+  animation:  box-2animation 20s linear infinite;
+}
+
+@keyframes box-2animation{
+  0%{
+    rotate: 360deg;
+  }
+  100%{
+    rotate: -360deg;
+  }
+}
+
+#portfolio .right-side img{
+  height: 300px;
+  position: absolute;
+  left: 550;
+  top: 20;
 }
