@@ -35,8 +35,8 @@
           development, modern frameworks, and delivering clean, user-centric solutions across platforms.</p>
       </div>
       <div class="btns">
-        <button id="works-btn">View My Works</button>
-        <button id="contact-btn">Contact Me</button></button>
+        <a href="#works" id="works-btn">View My Works</a>
+        <a href="#contact" id="contact-btn">Contact Me</a>
       </div>
 
     </div>
@@ -54,6 +54,7 @@
       <h6>The Developer Behind the Screen_</h6>
     </div>
     <div class="title">
+      <h1>About Me</h1>
       <span>Turning Ideas <span id="colored-text">into Functional,</span> Scalable Software</span>
     </div>
     <div class="sides">
@@ -197,6 +198,7 @@
       <h6>What I Do Best_</h6>
     </div>
     <div class="title">
+       <h1>My Expertise</h1>
       <span>Bringing Depth, <span id="coloured-text">Skill, and Precision to</span> Every Project</span>
     </div>
     <div class="discription">
@@ -387,6 +389,7 @@
       <h6>What I’ve Built_</h6>
     </div>
     <div class="title">
+       <h1>My Works</h1>
       <span>Bringing <span id="colored-text"> Ideas to Life</span> Through Code</span>
     </div>
     <div class="discription">
@@ -447,6 +450,7 @@
       <h6>Get In Touch_</h6>
     </div>
     <div class="title">
+      <h1>Let's Connect</h1>
       <span>Let’s Build <span id="colored-text">Something</span> Together</span>
     </div>
     <div class="contact-body">
@@ -501,10 +505,15 @@
       loop: true
     });
 
+    let arra = []
     const sendMsg = () => {
       const name = document.getElementById('exampleInputEmail2').value;
       const email = document.getElementById('exampleInputEmail1').value;
       const message = document.getElementById('exampleFormControlTextarea1').value;
+
+      const data = name +" "+ email +" "+ message
+      arra.push(data)
+      console.log(arra);
 
       if (name === '' || email === '' || message === '') {
         Swal.fire({
@@ -525,6 +534,9 @@
         showConfirmButton: false,
         timer: 2000
       })
+      document.getElementById('exampleInputEmail2').value = ''
+      document.getElementById('exampleInputEmail1').value = ''
+      document.getElementById('exampleFormControlTextarea1').value = ''
     }
 
   </script>

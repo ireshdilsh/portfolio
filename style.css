@@ -86,6 +86,10 @@ nav a:hover::after{
   margin-top: 25px;
 }
 
+#portfolio .left-side .btns a{
+  text-decoration: none;
+}
+
 #portfolio .left-side .btns #works-btn{
   background-color: var(--text-color);
   color: #fcfcfc;
@@ -94,6 +98,7 @@ nav a:hover::after{
   border: none;
   cursor: pointer;
   font-size: 14px;
+   width: 150px;
 }
 
 #portfolio .left-side .btns #works-btn:hover{
@@ -596,6 +601,14 @@ footer p{
   font-weight: 800;
 }
 
+     #about .title h1,
+    #expertise .title h1,
+    #works .title h1,
+    #contact .title h1{
+      display: none;
+    }
+
+
 /* Css for Tablet */
 @media (min-width: 600px) and (max-width: 1024px) {
 * {
@@ -651,16 +664,16 @@ footer p{
       padding: 80px 120px;
     }
 
-    #element{
-      text-align: center;
-    }
-
     #portfolio .left-side{
       width: 100%;
       display: flex;
       justify-content: center;
       align-items: center;
       flex-direction: column;
+    }
+
+    #portfolio .left-side #element{
+      text-align: center;
     }
 
     #portfolio .left-side .title,
@@ -762,10 +775,25 @@ footer p{
    #contact .contact-body .left-side p{
     text-align: center;
    }
+
+        #about .title h1,
+    #expertise .title h1,
+    #works .title h1,
+    #contact .title h1{
+      display: none;
+    }
+
 }
 
 @media screen and (max-width: 1440px) {
   
+     #about .title h1,
+    #expertise .title h1,
+    #works .title h1,
+    #contact .title h1{
+      display: none;
+    }
+
     #portfolio{
       display: flex;
       justify-content: center;
@@ -886,5 +914,50 @@ footer p{
    #contact .contact-body .left-side p{
     text-align: center;
    }
+}
+
+@media screen and (max-width : 750px) {
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Roboto", sans-serif;
+      font-style: normal;
+      font-optical-sizing: auto;
+      color: var(--text-color);
+    }
+  
+    body {
+      overflow-x: hidden;
+    }
+
+    #portfolio{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    #portfolio .left-side .btns{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 25px;
+    }
+
+    #about .title span,
+    #expertise .title span,
+    #works .title span,
+    #contact .title span{
+      display: none;
+    }
+
+    #about .title h1,
+    #expertise .title h1,
+    #works .title h1,
+    #contact .title h1{
+      display: block;
+    }
 }
 
