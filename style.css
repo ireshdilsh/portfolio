@@ -597,7 +597,169 @@ footer p{
 }
 
 /* Css for Tablet */
-
 @media (min-width: 600px) and (max-width: 1024px) {
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Roboto", sans-serif;
+      font-style: normal;
+      font-optical-sizing: auto;
+      color: var(--text-color);
+    }
   
+    body {
+      overflow-x: hidden;
+    }
+  
+    nav {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 35px 0 0 0;
+      gap: 25px;
+    }
+  
+    nav a {
+      text-decoration: none;
+      color: var(--text-color);
+      font-weight: 500;
+      position: relative;
+      font-size: 13px;
+    }
+  
+    nav a::after {
+      content: "";
+      width: 0;
+      height: 2px;
+      background-color: var(--text-color);
+      position: absolute;
+      left: 0;
+      bottom: -5px;
+      transition: width 0.3s ease-in-out;
+    }
+  
+    nav a:hover::after {
+      width: 100%;
+    }
+
+    #portfolio{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 80px 120px;
+    }
+
+    #element{
+      text-align: center;
+    }
+
+    #portfolio .left-side{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    #portfolio .left-side .title,
+    #portfolio .left-side .discription{
+      text-align: center;
+    }
+
+    #about{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+   #about .title{
+    text-align: center;
+   }
+
+   #about .sides{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   }
+
+   #expertise{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 80px 120px;
+   }
+
+   #expertise .title,
+   #expertise .discription{
+    text-align: center;
+   }
+    
+   #expertise .cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   }
+
+   #expertise .cards .set-1,
+   #expertise .cards .set-2,
+   #expertise .cards .set-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   }
+
+   #works{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 80px 120px;
+   }
+
+   #works .title,
+   #works .discription{
+    text-align: center;
+   }
+
+   #works .cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   }
+
+   #works .cards .set-1,
+   #works .cards .set-2,
+   #works .cards .set-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   }
+
+   #contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 80px 120px;
+   }
+   
+   #contact .contact-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   }
+
+   #contact .contact-body .left-side p{
+    text-align: center;
+   }
 }
