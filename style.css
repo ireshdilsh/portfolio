@@ -133,7 +133,6 @@ nav a:hover::after{
   display: flex;
   justify-content: center;
   align-items: center;
-  rotate: 45deg;
   border-radius: 8px;
   animation: box-1animation 20s linear infinite;
 }
@@ -154,7 +153,6 @@ nav a:hover::after{
   display: flex;
   justify-content: center;
   align-items: center;
-  rotate: 45deg;
   border-radius: 8px;
   animation:  box-2animation 20s linear infinite;
 }
