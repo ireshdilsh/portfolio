@@ -763,3 +763,128 @@ footer p{
     text-align: center;
    }
 }
+
+@media screen and (max-width: 1440px) {
+  
+    #portfolio{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 80px 120px;
+    }
+
+    #element{
+      text-align: center;
+    }
+
+    #portfolio .left-side{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    #portfolio .left-side .title,
+    #portfolio .left-side .discription{
+      text-align: center;
+    }
+
+    #about{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+   #about .title{
+    text-align: center;
+   }
+
+   #about .sides{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   }
+
+   #expertise{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   }
+
+   #expertise .title,
+   #expertise .discription{
+    text-align: center;
+   }
+    
+   #expertise .cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   }
+
+   #expertise .cards .set-1,
+   #expertise .cards .set-2,
+   #expertise .cards .set-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   }
+
+   #works{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   }
+
+   #works .title,
+   #works .discription{
+    text-align: center;
+   }
+
+   #works .cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   }
+
+   #works .cards .set-1,
+   #works .cards .set-2,
+   #works .cards .set-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   }
+
+   #contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   }
+
+   #contact .title{
+    text-align: center;
+   }
+   
+   #contact .contact-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   }
+
+   #contact .contact-body .left-side p{
+    text-align: center;
+   }
+}
+
