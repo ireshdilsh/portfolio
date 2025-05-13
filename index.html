@@ -448,13 +448,29 @@
       <p>I'm always open to new opportunities, collaborations, or just a friendly chat. Feel free to reach out—I'll get back to you as soon as possible.</p>
     </div>
     <div class="middle-side">
-     <p>Phone: +91 1234567890</p>
-     <p>Email: bV7ZC@example.com</p>
-     <p>Address: 123 Main Street, City, Country</p>
-
+      <span><img src="https://img.icons8.com/?size=100&id=78382&format=png&color=000000" alt="">Phone :</span>
+     <p>+91 1234567890</p>
+      <span><img src="https://img.icons8.com/?size=100&id=pJJmXPomYuPv&format=png&color=000000" alt="">Email Address :</span>
+     <p>bV7ZC@example.com</p>
+      <span><img src="https://img.icons8.com/?size=100&id=53430&format=png&color=000000" alt="">Address :</span>
+     <p>123 Main Street, New Yourk, America</p>
     </div>
     <div class="right-side">
       <h4>Let's Collaberate !</h4>
+       <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Full Name</label>
+        <input type="email" class="form-control" id="exampleInputEmail2" aria-describedby="emailHelp">
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+      </div>
+      <button onclick="sendMsg()" type="submit" class="btn btn-dark">Send Message</button>
     </div>
    </div>
   </section>
@@ -468,13 +484,42 @@
     crossorigin="anonymous"></script>
   <!-- typing animation -->
   <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <script>
     var typed = new Typed('#element', {
       strings: ['Im a UI/UX Designer.', 'Im a Front-end Developer.', 'Im a Back-end Developer.', 'Im a Software Engineer.'],
       typeSpeed: 200,
       backSpeed: 200,
       loop: true
-    });
+    });      
+
+    const sendMsg = () => {
+
+      const name = document.getElementById('exampleInputEmail2').value;
+      const email = document.getElementById('exampleInputEmail1').value;
+      const message = document.getElementById('exampleFormControlTextarea1').value;
+
+      if (name === '' || email === '' || message === '') {
+        Swal.fire({
+        position: 'center',
+        icon: 'error',
+        title: 'Something Went Wrong',
+        showConfirmButton: false,
+        timer: 2000
+      })
+      return
+      }
+
+      Swal.fire({
+        position: 'center',
+        icon: 'success',
+        title: 'Message Sent Successfully',
+        text: 'Thank You For Your Feedback',
+        showConfirmButton: false,
+        timer: 2000
+      })
+    }
+
   </script>
 </body>
 

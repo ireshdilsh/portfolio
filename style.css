@@ -539,6 +539,51 @@ nav a:hover::after{
   font-size: 13px;
 }
 
+#contact .contact-body .middle-side span{
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#contact .contact-body .middle-side p{
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+#contact .contact-body .right-side{
+  width: 380px;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+#contact .contact-body .right-side h4{
+  margin-bottom: 20px;
+}
+
+#contact .contact-body .right-side label{
+  font-size: 13px;
+}
+
+#contact .contact-body .right-side button,
+#contact .contact-body .right-side input,
+#contact .contact-body .right-side textarea{
+  font-size: 13px;
+}
+
+#contact .contact-body .right-side #emailHelp{
+  font-size: 11px;
+}
+
+#contact .contact-body .right-side input{
+  height: 38px;
+}
+
+#contact .contact-body .middle-side span img{
+  height: 18px;
+  width: 18px;
+  margin-right: 15px;
+}
+
 footer{
   display: flex;
   justify-content: center;
@@ -550,3 +595,4 @@ footer p{
   font-size: 11.5px;
   font-weight: 800;
 }
+
